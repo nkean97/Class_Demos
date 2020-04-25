@@ -3,7 +3,7 @@
 <body>
 <h1>
 <center>
-<IMG SRC="bubu.jpg" ALT="omg"><br>
+<IMG SRC="bubu.jpg" ALT="Bubu"><br>
 <?php
 echo $_SERVER['SERVER_ADDR'];
 ?>
