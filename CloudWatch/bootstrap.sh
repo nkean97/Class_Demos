@@ -6,5 +6,5 @@ systemctl enable httpd.service
 systemctl start httpd.service
 cd
 git clone https://github.com/nkean97/Class_Demos.git
-cp ./Class_Demos/CloudWatch/* /var/www/html
+cp -r ./Class_Demos/CloudWatch/* /var/www/html
 mv /var/www/html/htaccess /var/www/html/.htaccess
