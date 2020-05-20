@@ -1,5 +1,5 @@
 <html>
-<title> Load Balancer Demo </title>
+<title> EC2 Website </title>
 <body>
 <h1>
 <center>
