@@ -29,9 +29,9 @@ src="images/AWS_Logo_Web_200px.png">
                                 <br/>
                                 <br/>
                         <h2>Generate Load</h2>
-				<?php
+				<h2><?php
                 echo $_SERVER['SERVER_ADDR'];
-            ?>   <br /> <br />    <table border="0" width="30%" cellpadding="0" cellspacing="0"
+            ?></h2>   <br /> <br />    <table border="0" width="30%" cellpadding="0" cellspacing="0"
 id="content-table">
         <tr>
                 <td><form action="index.php"><input type="hidden" name="stress" value="start" /><input
