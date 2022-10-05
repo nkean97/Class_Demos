@@ -1,6 +1,0 @@
-#On a Linux instance, you can use:
-curl http://169.254.169.254/latest/meta-data/
-GET http://169.254.169.254/latest/meta-data/
-
-curl http://169.254.169.254/latest/user-data/
-
