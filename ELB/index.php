@@ -28,7 +28,7 @@ if (strlen($stressOrKill) > 0) {
     <!-- start content -->
     <div id="content">
         <center>
-            <img src="images/AWS_Logo_Web_200px.png">
+            <img src="images/omg.jpg">
             <br />
             <br />
             <h2>Generate Load</h2>
