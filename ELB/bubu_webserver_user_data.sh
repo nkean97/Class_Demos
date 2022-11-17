@@ -7,3 +7,5 @@ cp ./Class_Demos/* /var/www/html
 mv /var/www/html/htaccess /var/www/html/.htaccess
 systemctl enable httpd.service
 systemctl start httpd.service
+echo "Healthy" > /var/www/html/health.html
+yum update -y
