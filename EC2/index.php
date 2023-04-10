@@ -18,7 +18,7 @@ if (strlen($stressOrKill) > 0) {
 								echo("<h2>Generating load</h2>");
 								exec("stress --cpu 4 --io 1 --vm 1 --vm-bytes 128M --timeout 600s > /dev/null 2>/dev/null &");
 				} elseif ($stressOrKill == "stop") {
-								exec("kill -9 (pidof stress)");
+								exec("killall -9 stress");
 								echo("<h2>Killed stress processes</h2>");
 				} else {
 
