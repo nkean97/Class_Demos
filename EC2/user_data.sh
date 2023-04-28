@@ -1,5 +1,4 @@
 #!/bin/bash
-#amazon-linux-extras install epel -y
 dnf install -y httpd php stress git
 dnf update -y --security
 cd
