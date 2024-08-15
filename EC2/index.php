@@ -1,7 +1,3 @@
-Your IP address is: <? echo $_SERVER["http://169.254.169.254/latest/meta-data/local-hostname"]; ?>
-
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -36,7 +32,9 @@ if (strlen($stressOrKill) > 0) {
             <br />
             <br />
             <h2>Generate Load</h2>
-            <h2><?php echo file_get_contents("http://169.254.169.254/latest/meta-data/instance-id"); ?></h2> <br /> <br />
+            <h2><?php
+                echo $_SERVER['SERVER_ADDR'];
+            ?></h2> <br /> <br />
             <table border="0" width="30%" cellpadding="0" cellspacing="0" id="content-table">
                 <tr>
                     <td>
