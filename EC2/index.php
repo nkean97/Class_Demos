@@ -14,9 +14,9 @@
 
     // Database connection details
     $host = 'my-db.ctjqojps0rjn.us-gov-west-1.rds.amazonaws.com'; // Replace with your database host
-    $dbname = 'my_db'; // Replace with your database name
+    $dbname = 'database-1'; // Replace with your database name
     $user = 'admin'; // Replace with your database user
-    $password = 'password'; // Replace with your database password
+    $password = '1qaz2wsx'; // Replace with your database password
 
     // Perform a DNS lookup to get the IP address of the RDS instance
     $rds_ip = gethostbyname($host);
