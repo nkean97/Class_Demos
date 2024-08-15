@@ -13,7 +13,7 @@
     echo "<p>EC2 Instance ID: " . $instanceId . "</p>";
 
     // Database connection details
-    $host = 'my-db.ctjqojps0rjn.us-gov-west-1.rds.amazonaws.com'; // Replace with your database host
+    $host = 'database-1.c3zk3ppp09uy.us-east-1.rds.amazonaws.com'; // Replace with your database host
     $dbname = 'database-1'; // Replace with your database name
     $user = 'admin'; // Replace with your database user
     $password = '1qaz2wsx'; // Replace with your database password
